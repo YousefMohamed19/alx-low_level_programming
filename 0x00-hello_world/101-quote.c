@@ -3,13 +3,12 @@
 /**
  * main - Entry point
  *
- * Description:  print a coute  using  write function 
+ * Description: Print a quote using the write function
  *
- * Return: Always 0 (Success)
- */
+ * Return: 1 (error)
+*/
 int main(void)
-{
-	char quo[] ="and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-	write (1,quo,59);
+{	char quo[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	write(1, quo, 59);
 	return (1);
 }
